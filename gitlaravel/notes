@@ -1,0 +1,4 @@
+php artisan make:controller Api/UserController --model=User --requests --resource --api
+php artisan make:resource UserResource
+php artisan db:seed -> remplir la base de données avec des données aleatoires voir fichier
+DatabaseSeeder.php
